@@ -31,7 +31,7 @@
   "editor.inlayHints.enabled": "off",
   "editor.largeFileOptimizations": true,
   "editor.smoothScrolling": false,
-  "editor.wordWrap": "on",
+  "editor.": "on",
 
   // Editor Formatting (Language Specific)
   "[django-html]": {
@@ -80,6 +80,11 @@
       "source.fixAll": "always"
     },
     "python.formatting.provider": "charliermarsh.ruff"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
   },
   "html.format.indentInnerHtml": true,
   "html.format.indentHandlebars": true,
@@ -311,7 +316,15 @@
     "visualline": "block",
     "visualblock": "block",
     "replace": "block",
-    "inactive": "block",
+    "inactive": "block"
   },
   "terminal.integrated.cursorStyleInactive": "block",
+
+  "editor.tabCompletion": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.inlineSuggest.enabled": true,
+  "editor.fastScrollSensitivity": 3,
+  "debug.console.wordWrap": true,
+  "debug.openDebug": "neverOpen",
+  "debug.inlineValues": "on"
 }
